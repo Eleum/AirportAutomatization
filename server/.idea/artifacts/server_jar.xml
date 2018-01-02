@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="server.jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/server_jar</output-path>
+    <root id="archive" name="server.jar">
+      <element id="module-output" name="server" />
+      <element id="extracted-dir" path="C:/Program Files/Microsoft JDBC Driver 6.0 for SQL Server/sqljdbc_6.0/enu/jre8/sqljdbc42.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

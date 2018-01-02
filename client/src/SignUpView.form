@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="SignUpView">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="11" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="3" vgap="2">
+    <margin top="0" left="0" bottom="10" right="0"/>
+    <constraints>
+      <xy x="66" y="30" width="264" height="297"/>
+    </constraints>
+    <properties>
+      <autoscrolls value="false"/>
+      <background color="-12828863"/>
+      <doubleBuffered value="true"/>
+      <focusTraversalPolicyProvider value="false"/>
+      <foreground color="-4941744"/>
+      <name value="testName"/>
+      <opaque value="true"/>
+      <preferredSize width="264" height="297"/>
+      <requestFocusEnabled value="true"/>
+    </properties>
+    <clientProperties>
+      <html.disable class="java.lang.Boolean" value="false"/>
+    </clientProperties>
+    <border type="line"/>
+    <children>
+      <component id="37ad1" class="javax.swing.JPasswordField" binding="passwordField">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="133" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12828863"/>
+          <caretColor color="-16"/>
+          <focusCycleRoot value="false"/>
+          <focusable value="true"/>
+          <foreground color="-4473925"/>
+          <horizontalAlignment value="10"/>
+          <inheritsPopupMenu value="false"/>
+        </properties>
+      </component>
+      <component id="9d001" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13158601"/>
+          <doubleBuffered value="false"/>
+          <enabled value="true"/>
+          <font/>
+          <foreground color="-4473925"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <inheritsPopupMenu value="true"/>
+          <text value="Пароль"/>
+          <verticalAlignment value="0"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="87582" class="javax.swing.JButton" binding="signUpButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12828863"/>
+          <borderPainted value="true"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="true"/>
+          <foreground color="-13158601"/>
+          <opaque value="true"/>
+          <text value="Зарегистрироваться"/>
+        </properties>
+        <clientProperties>
+          <hideActionText class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+      <component id="97137" class="javax.swing.JTextField" binding="loginField">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="133" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12828863"/>
+          <caretColor color="-16"/>
+          <foreground color="-4473925"/>
+          <opaque value="true"/>
+        </properties>
+      </component>
+      <component id="fa394" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <alignmentY value="0.5"/>
+          <background color="-4473925"/>
+          <doubleBuffered value="false"/>
+          <enabled value="true"/>
+          <font/>
+          <foreground color="-4473925"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <iconTextGap value="4"/>
+          <opaque value="false"/>
+          <text value="Логин"/>
+          <verticalAlignment value="0"/>
+          <verticalTextPosition value="0"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="e9465" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font style="1"/>
+          <foreground color="-4473925"/>
+          <text value="&lt;html&gt;Станьте в курсе всех полетов вместе&lt;br&gt;с ComeFlyWithMe прямо сейчас!&lt;/html&gt;"/>
+        </properties>
+      </component>
+      <component id="f4f27" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="8"/>
+          <foreground color="-4473925"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="(C) ComeFlyWithMe Системы 2017"/>
+        </properties>
+      </component>
+      <component id="86b56" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4473925"/>
+          <text value="Для регистрации заполните поля ниже:"/>
+        </properties>
+      </component>
+      <vspacer id="c82dd">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="15"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="49f7f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="1" use-parent-layout="false">
+            <preferred-size width="-1" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13158601"/>
+          <doubleBuffered value="false"/>
+          <font/>
+          <foreground color="-4473925"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <inheritsPopupMenu value="true"/>
+          <text value="Повторите пароль"/>
+          <verticalAlignment value="0"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="cda46" class="javax.swing.JPasswordField" binding="reenteredPasswordField">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="133" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12828863"/>
+          <caretColor color="-16"/>
+          <focusCycleRoot value="false"/>
+          <focusable value="true"/>
+          <foreground color="-4473925"/>
+          <horizontalAlignment value="10"/>
+          <inheritsPopupMenu value="false"/>
+        </properties>
+      </component>
+      <vspacer id="5e11e">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="5"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <toolbar id="f0930">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="1" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12828863"/>
+          <borderPainted value="true"/>
+          <enabled value="false"/>
+          <floatable value="false"/>
+          <foreground color="-12828863"/>
+          <margin top="10" left="50" bottom="10" right="10"/>
+        </properties>
+        <border type="empty">
+          <font/>
+          <title-color color="-4473925"/>
+          <color color="-4473925"/>
+        </border>
+        <children>
+          <component id="5e066" class="javax.swing.JButton" binding="backButton">
+            <constraints/>
+            <properties>
+              <actionCommand value="back"/>
+              <autoscrolls value="false"/>
+              <background color="-12828863"/>
+              <borderPainted value="true"/>
+              <contentAreaFilled value="true"/>
+              <foreground color="-4473925"/>
+              <text value="Назад"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <vspacer id="238e8">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="5"/>
+          </grid>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
