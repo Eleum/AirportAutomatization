@@ -64,11 +64,6 @@ public class AdminViewController extends Controller {
             }
             tableModel.addRow(new Object[]{account.getId(), typesTable[1], typesTable[0]});
         }
-
-        //TODO JUST FOR TEST
-        /*for(int i = 0; i < 20; i++) {
-            tableModel.addRow(new Object[]{i, false, false});
-        }*/
     }
 
     public void findUser(String userID, JTable table) {
